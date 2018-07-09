@@ -1,0 +1,78 @@
+	
+	React
+
+Module 1: ES6 Primer
+	Block scope, let & const
+	Arrow functions
+	Spread and Rest operators
+	Object literal improvements
+	Destructuring
+	Classes
+	Inheritance
+	Static properties and methods
+	Promises
+	Generators
+	Modules
+Module 2: Introduction to React
+	What is React?
+	Why React?
+	Just React - Hello World
+	Using create-react-app
+	Anatomy of react project
+	Running the app
+Module 3: Templating using JSX
+	Working with React.createElement
+	Expressions
+	Using logical operators
+	Specifying attributes
+	Specifying children	
+Module 4: It's all about components
+	Significance of component architecture
+	Types of components
+	Functional
+	Class based    
+	Pure
+Module 5: Working with state and props
+	What is state and it significance
+	Read state and set state
+	Passing data to component using props
+	Validating props using propTypes
+	Supplying default values to props using defaultProps	
+Module 6: Rendering lists
+	Using React key prop
+	Using map function to iterate on arrays to generate elements	
+Module 7: Event handling in React
+	Understanding React event system
+	Understanding Synthetic event
+	Passing arguments to event handlers
+Module 8: Understand component lifecycle
+	Understand component lifecycle
+Module 9: Working with forms
+	Controlled components
+	Uncontrolled components
+	Understand the significance to defaultValue prop
+	Using react ref prop to get access to DOM element	
+Module 10: Routing with react router
+	Setting up react router
+	Understand routing in single page applications
+	Working with BrowserRouter and HashRouter components
+	Configuring route with Route component
+	Using Switch component to define routing rules
+	Making routes dynamic using route params
+	Working with nested routes
+	Navigating to pages using Link and NavLink component
+	Redirect routes using RedirectComponent
+	Using Prompt component to get consent of user for navigation
+	Path less Route to handle failed matches	
+Module 11: Just Redux
+	What is redux
+	Why redux
+	Redux principles
+	Install and setup redux
+	Creating actions, reducer and store	
+Module 15: Unit testing in react
+	Understand the significance of unit testing
+	Understand unit testing jargon and tools
+	Unit testing react components with Jest
+	Unit testing react components with enzyme	
+		
