@@ -1,0 +1,56 @@
+The process object is an instance of EventEmitter.
+
+
+
+beforeExit
+
+disconnect
+
+message
+
+In synchronous code, the 'uncaughtException' 
+In asynchronous code, the 'unhandledRejection'
+
+process.on('uncaughtException', (err) => {
+console.log('exception caught ${err}');
+});
+
+
+process.on('unhandledRejection', (err, promise) => {
+console.log('exception caught ${err}');
+});
+
+
+warning
+
+process.emitWarning() 
+process.on('warning', (warning) => {
+  console.warn(warning.name);    // Print the warning name
+  console.warn(warning.message); // Print the warning message
+  console.warn(warning.stack);   // Print the stack trace
+});
+
+
+
+process.abort()
+
+process.arch
+
+process.argv
+
+$ node process-args.js one two=three four
+
+
+process.channel
+
+process.chdir(directory)
+
+
+process.cpuUsage
+
+
+process.env
+
+
+
+process.execArgv
